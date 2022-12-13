@@ -16,6 +16,7 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
+
 body{
 	background: var(--bg-color);
 	color: var(--text-color);
@@ -358,6 +359,9 @@ section{
 }
 
 @media (max-width: 1100px){
+	.mobile-nav {
+		width: 0;
+	}
 	.logo-content {
 		width: 80%;
 	}
